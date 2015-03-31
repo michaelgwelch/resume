@@ -6,8 +6,7 @@ Summary
 
 I have 19 years of development and IT experience and 3 years of formal leadership experience. I bring a unique mix of skills as I've contributed, led, mentored and taught. I have an educational background in engineering, computer science and business.
 
-My passion is for developing clean quality code and
-for mentoring others to do the same. I stay sharp by doing independent reading, 
+My passion is developing clean quality code and mentoring others to do the same. I stay sharp by doing independent reading, 
 contributing to projects on GitHub, creating my own personal study projects,
 taking university courses, and facillitating study groups.
 

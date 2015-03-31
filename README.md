@@ -86,7 +86,7 @@ On the Web
 My blog is at [loominate.net](http://loominate.net). There I occasionally write about software development, computer science and math.
 
 I have many repositories on [GitHub](https://github.com/michaelgwelch) and 
-[Bitbucket](https://bitbucket.org/myklwelch). I use them to store my work as I learn new topics (a new language, a computer science topic, or even math); and even my blog is there. 
+[Bitbucket](https://bitbucket.org/myklwelch). Favorites include [mbasic99](https://github.com/michaelgwelch/mbasic99) (a compiler for TI BASIC), [brainmess](https://github.com/michaelgwelch/brainmess) (a simple interpreter useful for refactoring study groups), [parser.js](https://github.com/michaelgwelch/parser.js) (a functional parser library in JavaScript) and [loominate.net](https://github.com/michaelgwelch/loominate.net) (my blog).
 
 I've asked and answered a handful of questions on [Stackoverflow](http://stackoverflow.com/users/697188/michael-welch)
 
@@ -96,7 +96,7 @@ Hobbies
 
 In the last couple of years I've taken an interest in physical fitness: I've recently completed my first two half-marathons, a Rugged Maniac and a Tough Mudder. I'm currently training for my first marathon.
 
-I enjoy keeping up with tech industry and read several blogs related to C#, Swift, Hakell, functional programming, and Apple.
+I enjoy keeping up with tech industry and read several blogs related to C#, Swift, Haskell, functional programming, and Apple.
 
 I enjoy studying math (for example, [abstract algebra](https://bitbucket.org/myklwelch/algebra/src)) and learning new programming languages (Haskell, JavaScript and Swift being the most recent). 
 

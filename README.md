@@ -24,14 +24,13 @@ web services.
 
 #### Highlights ####
 
-* Implementation of binary serialization framework in Java and C# <!-- that support BACnet encoding (I later wrote [Haskell version](https://github.com/michaelgwelch/bacnet) on my own time that I can share.) This was supplemented with a testing framework and excellent documentation. The testing framework was virtually identical in Java and C#. This is a highlight because it represents a complete framework (much of it done on my own time), that substantially added to the convenience of writing services for our building automation system. It also contains clean code with a full suite of unit tests. -->
-* Introducing unit testing, refactoring, and clean coding through mentoring, code reviews, and study groups <!-- Two repositories ([Refactoring](https://github.com/michaelgwelch/Refactoring) and [Brainmess](https://github.com/michaelgwelch/brainmess)) were used as part of Refactoring study as well as Martin Fowler's book. I've found the books Clean Code and Clean Coder to be useful. This is a highlight because thru these groups (and my teaching experience) my own skills and confidence grew considerably. -->
-* A language for expressing constraints and a compiler for generating code to enforce them <!-- This is a highlight because it was an example of taking theory I had learned in grad school to solve a difficult problem in a new way. Previous attempts to enforce constraings involved large methods and classes with thousadns of lines of code and hundreds of conditionals and switches. -->
-* State machine engine <!-- : We had a goal of trying to ease the complexity of writing concurrent services. To that end we decided to model our services as state machines and needed an engine to run them. I implemented the state machine engine in .Net but compiled and tested on both Windows and Linux. This is a highlight as it required a unique set of automated tests to check for race conditions. It was thru stress testing on multiple platforms that I was able to uncover defects in my implementation that only showed up when run with Mono on Linux. -->
-* Team member on MMS (a distributed communication protocol and related set of application services) <!-- : Metasys Management Services is a framework for distributed communication between Metasys controllers. I was a member of the team that designed and implemented. This is a highlight because it allowed us to scale up a system from a couple dozen controllers to hundreds of controllers. This change allowed us to move from a primarily polling set of services to subscription/push services. The system also allowed us to hit key CTQs (Critical to Quality) metrics (like a change of value in a sensor propagating all the way from the sensor thru multiple controllers to the user interface in under 5 seconds. No polling solution could handle this and any attempt at it would likely stress the server too greatly.) -->
-* Team lead for reusable controls for Graphics+ project  <!-- Our program has struggled to write reusable components. Often times, to meet deadlines useful abstractions are left out of components and therefore they are constrained to their single purpose useage. This is a highlight because I designed and oversaw the development of truly reusable graphical controls. They could be resued like typical controls (text boxes, etc.) but also as "smart controls" they could be resued across programs (building automation, or security & fire) -->
-* Bringing in distributed source control <!-- : When Linus Torvalds invent git, I wanted to use it. When GitHub was invented I wanted to use it. When I finally got my own team I was able to select these tools and prove how superiour they were especially in relationship to the control system used by other projects. Now most projects are looking to move to GitHub over the next year. This is a highlight because it showcases my patience as I waited for the right time to try something. --> 
-<!-- * Pushing Linux early: Many of our products have been subject to Windows licensing. Early in my career at Johnson Controls I became aware of Linux and led a skunkworks lunch-time group to port our native code to Linux to prototype a non-windows solution. This is a highlight -->
+* Implementation of binary serialization framework in Java and C# 
+* Introducing unit testing, refactoring, and clean coding through mentoring, code reviews, and study groups 
+* A language for expressing constraints and a compiler for generating code to enforce them 
+* State machine engine 
+* Team member on MMS (a distributed communication protocol and related set of application services) 
+* Team lead for reusable controls for Graphics+ project  
+* Bringing in distributed source control 
 
 #### P2000 User Interface ####
 
@@ -45,17 +44,6 @@ graphics to monitor and command their building control system. Required
 the creation of 300 custom WPF/Silverlight controls. These controls also needed
 to work seamlessly in a layout tool (think Blend) and allow these controls to be bound to real-time information (thermostats, damper positions, etc.)
 
-<!-- The team I lead grew to be over 20 people working on the controls, the editor, runtime data-access, etc. The technology was C# and WPF/Silverlight and accessing real-time data thru web services and historical data from SQL.
-
-Key aspects of my development role: design pattern for all the controls, design for 
-run-time data access, and development in data access.-->
-
-<!-- #### Other Metasys Projects ####
-
-* Implemented caching solutions
-* Implemented "gauranteed" delivery utilizing MSMQ
-
--->
 
 ### SysLogic ###
 
@@ -71,19 +59,6 @@ Management Experience
 I was promoted to engineering manager a year after forming the P2000 Web UI team.
 My biggest contribution as manager was to recruit the best employees from within JCI.
 They've been given considerable freedom and have exceeded my expectations.
-
-<!-- In the first 9 months I was responsible for forming the team, selecting
-tool-chain and process, high-level design, and ultimately delivering the first
-release of the new user interface. The backend was written in C# and 
-used ASP.Net MVC stack. The frontend was written in HTML5 targetting modern browsers. Key libraries used were jQuery and Knockout.
-
-I was promoted to engineering manager soon after this period and my role became
-more one of recruting, management, and mentoring. I'm proud of the achievements my team achieved during this time: TDD (high unit test coverage), BDD (they championed it, while I had to smooth over the initial fears that this was taking too much time), simulator to facillitate BDD, the use of virutal machines for build servers, automated
-test servers, demo servers, etc. We also released 2 more versions of the UI.
-
-In the last year we rolled out SAFe to all the teams. 
-
-One key challenge we've had to address is how do we set long-term expectations on what features will be complete 6-12 months in the future. The other key challenge we've solved effectively is how to demonstrate quality of feature every 2 week; and this has been accomplished with a high level of automated acceptance tests. -->
 
 Teaching Experience
 ---------------
@@ -111,29 +86,10 @@ On the Web
 My blog is at [loominate.net](http://loominate.net). There I occasionally write about software development, computer science and math.
 
 I have many repositories on [GitHub](https://github.com/michaelgwelch) and 
-[Bitbucket](https://bitbucket.org/myklwelch). I use them to store my work as I learn new topics (a new language, a computer science topic, or even math); and even my blog is there. <!-- Of note is a repository that I use for a study group on Refactoring. The code there is verbose as the emphasis is on learning to refactor and doesn't intent to be pragmatic. -->
+[Bitbucket](https://bitbucket.org/myklwelch). I use them to store my work as I learn new topics (a new language, a computer science topic, or even math); and even my blog is there. 
 
 I've asked and answered a handful of questions on [Stackoverflow](http://stackoverflow.com/users/697188/michael-welch)
 
-<!-- Who am I
--------
-
-Favorite Language: Haskell
-
-Favorite Tool: git/GitHub
-
-Markdown, Latex
-
-Prefer strongly typed languages (probably because of my academic interests in type systems), but can appreciate the loosely typed like JavaScript (I guess because I'm fascinated by the lambda calculus)
-
-A few of my scribbles can be found at loominate.net
-
-I've answered a few questions at StackOverflow.
-
-I've got some code at github.com/michaelgwelch (Some good, some not so good). I'd love to explain to you which is which and why I feel so. (Contributed a little to other projects, very minor. Always interested in doing more.)
-
-I was even published once in an early edition of Visual Studio Magazine.
--->
 
 Hobbies
 --------

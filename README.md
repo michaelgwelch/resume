@@ -4,7 +4,7 @@ Profile of Michael Welch
 Summary
 -------
 
-I have 19 years of development and IT experience and 3 years of formal
+I have 22 years of development and IT experience and 3 years of formal
 leadership experience. I bring a unique mix of skills as I've contributed, led,
 mentored and taught. I have an educational background in engineering, computer
 science and business.
@@ -14,13 +14,19 @@ same. I stay sharp by doing independent reading, contributing to projects on
 GitHub, creating my own personal study projects, taking university courses, and
 facillitating study groups.
 
-I have 3 years of agile experience.
-
 Career
 -------------
 
+### Employment: Direct Supply ###
+*Senior Development Lead: 2015 - Present*
+
+I am the development lead for an agile team working on Direct Supply's
+eCommerce/procurement website. Responsibilities include technical leadership,
+design, and mentorship but also many aspects of the scrum roles of scrum master
+and product owner.
+
 ### Employment: Johnson Controls ###
-*Lead Staff Engineer (and previous titles): 2002 - Present*
+*Lead Staff Engineer (and previous titles): 2002 - 2015*
 
 I've worked on many releases and features of the Metasys building automation
 system and P2000 security & fire systems over 13 years. The majority of that

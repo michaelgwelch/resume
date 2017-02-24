@@ -1,6 +1,10 @@
 Profile of Michael Welch
 ============
 
+This resume is written using Markdown. You can see a 
+formatted version at https://github.com/michaelgwelch/resume/
+
+
 Summary
 -------
 

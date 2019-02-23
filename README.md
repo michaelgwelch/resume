@@ -137,7 +137,7 @@ Key problems solved:
 I was a Senior Consultant. I developed in Visual Basic, C# and Sql Server for
 various clients.
 
-### Employement: Procter & Gamble ###
+### Employment: Procter & Gamble ###
 *Systems Analyst: 1992-1997*
 
 I was a Systems Analyst. My responsibilities included requirements analysis,
